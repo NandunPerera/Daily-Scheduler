@@ -1,0 +1,83 @@
+
+.container{
+       background-color: white;        
+            }
+
+.table{
+  text-align: center;
+  font-size: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: inherit;
+  border-width: 2px 2px 2px 2px;
+  padding: 20px; 
+  table-layout: auto;
+  
+  
+}
+
+th,td{
+    padding: 5px 15px;
+}
+
+
+
+.btn{
+float:right;
+width: 200px;
+text-align: center;
+display: block;
+
+}
+.welcome{
+text-align: center;
+
+}
+
+ul {
+
+list-style-type: none;
+padding: 0;
+
+}
+
+li {
+
+float: left;
+color:#0f4c75; 
+}
+
+li a {
+display: block;
+padding: 8px;
+text-decoration : none ; 
+
+}
+
+.nav{
+position: sticky;
+top: 0;
+
+}
+
+.menu{
+display:none ; 
+
+
+}
+
+.black{
+
+font-size: 20px;
+}
+
+h5{
+text-align:center ; 
+}
+@media only screen and (max-width:1000px){
+   #table{
+ 
+  font-size: 10px;
+ 
+}
+}
